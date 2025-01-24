@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <title>Acortador de URL</title>
+</head>
+
+<body>
+    <div class="container">
+        <i class="bx bx-link-alt"></i>
+        <h1>Acortador de URL</h1>
+        <label for="originalUrl">Ingresa la URL para acortar:</label>
+        <input type="text" id="originalUrl" placeholder="https://ejemplo.com">
+        <div class="buttons">
+            <button id="reload-btn">Recargar</button>
+            <button id="short-btn">Acortar</button>
+        </div>
+        <label for="shortenedUrl">URL Acortada:</label>
+        <textarea id="shortenedUrl" rows="3" readonly></textarea>
+
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/facundo-aguilar-014265261/" target="_blank">
+                <lord-icon
+                    src="https://cdn.lordicon.com/qjbuypqy.json"
+                    trigger="hover"
+                    style="width:40px;height:40px">
+                </lord-icon>
+            </a>
+            <a href="https://github.com/faFacundoAguilar" target="_blank">
+                <lord-icon
+                    src="https://cdn.lordicon.com/yedgackm.json"
+                    trigger="hover"
+                    style="width:40px;height:40px">
+                </lord-icon>
+            </a>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
